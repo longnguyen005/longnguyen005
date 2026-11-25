@@ -40,7 +40,7 @@
   <!-- Main Heading & Role -->
   <text x="56" y="112" fill="#0f172a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="-0.8">Nguyen Thanh Long</text>
   <text x="56" y="150" fill="#0284c7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" font-weight="600">Fullstack Web Developer  ·  Frontend &amp; Backend</text>
-  <text x="56" y="186" fill="#475569" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="400">Building production-minded web apps with React, TypeScript, Node.js, Express, PostgreSQL &amp; MongoDB.</text>
+  <text x="56" y="186" fill="#475569" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400">End-to-end web apps with React, TypeScript, Node.js, Express, PostgreSQL &amp; MongoDB.</text>
 
   <!-- Contact Chips -->
   <rect x="56" y="214" width="298" height="32" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
@@ -64,10 +64,10 @@
   <!-- Code Content -->
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
     <text x="788" y="96"><tspan fill="#7c3aed">export const</tspan> <tspan fill="#0284c7">profile</tspan> <tspan fill="#0f172a">=</tspan> <tspan fill="#64748b">{</tspan></text>
-    <text x="788" y="122"><tspan fill="#1e293b">  frontend:</tspan> <tspan fill="#059669">["React", "TypeScript"]</tspan><tspan fill="#94a3b8">,</tspan></text>
-    <text x="788" y="148"><tspan fill="#1e293b">  backend:</tspan>  <tspan fill="#059669">["Node.js", "Express"]</tspan><tspan fill="#94a3b8">,</tspan></text>
-    <text x="788" y="174"><tspan fill="#1e293b">  database:</tspan> <tspan fill="#059669">["PostgreSQL", "MongoDB"]</tspan><tspan fill="#94a3b8">,</tspan></text>
-    <text x="788" y="200"><tspan fill="#1e293b">  devops:</tspan>   <tspan fill="#059669">["Docker", "Git"]</tspan></text>
+    <text x="788" y="122"><tspan x="804" fill="#1e293b">frontend:</tspan><tspan x="888" fill="#059669">["React", "TypeScript"]</tspan><tspan fill="#94a3b8">,</tspan></text>
+    <text x="788" y="148"><tspan x="804" fill="#1e293b">backend:</tspan><tspan x="888" fill="#059669">["Node.js", "Express"]</tspan><tspan fill="#94a3b8">,</tspan></text>
+    <text x="788" y="174"><tspan x="804" fill="#1e293b">database:</tspan><tspan x="888" fill="#059669">["PostgreSQL", "MongoDB"]</tspan><tspan fill="#94a3b8">,</tspan></text>
+    <text x="788" y="200"><tspan x="804" fill="#1e293b">devops:</tspan><tspan x="888" fill="#059669">["Docker", "Git"]</tspan></text>
     <text x="788" y="226"><tspan fill="#64748b">};</tspan></text>
   </g>
 </svg>

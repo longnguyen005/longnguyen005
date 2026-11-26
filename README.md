@@ -66,11 +66,11 @@ I am a **Fullstack Web Developer** focused on building reliable, maintainable we
     <td width="50%" valign="top">
       <h3>DeckAI — AI Slide Generator</h3>
       <p>
-        <code>React 19</code> · <code>JavaScript</code> · <code>Node.js</code> · <code>Express</code> · <code>MongoDB</code> · <code>Mongoose</code> · <code>JWT</code> · <code>Gemini API</code>
+        <code>React 19</code> · <code>JavaScript</code> · <code>Node.js</code> · <code>Express</code> · <code>MongoDB</code> · <code>Mongoose</code> · <code>JWT</code> · <code>Docker</code>
       </p>
       <ul>
-        <li>Stage-gated presentation workspace (Prompt &rarr; Editable Outline &rarr; Interactive Slide Canvas &rarr; Per-Slide AI Regeneration) with native PowerPoint <code>.pptx</code> export via <code>pptxgenjs</code>.</li>
-        <li>Engineered with stateless JWT auth, route-level rate limiting, multi-key rotation, and automatic Gemini model fallback chains for resilient uptime.</li>
+        <li>Stage-gated presentation studio (Prompt &rarr; Outline &rarr; 5-Layout Canvas &rarr; 4 Brand Themes &rarr; Presenter View) with SlideVersion restore, PDF handouts, and themed <code>.pptx</code> export.</li>
+        <li>Engineered with hybrid Instant Demo (server seeding + &lt;3.5s offline sandbox fallback), multi-key Gemini rotation/fallback chains, Zod validation, and GitHub Actions CI.</li>
       </ul>
       <p>
         <a href="https://ai-slide-generator-omega.vercel.app"><strong>Live Demo</strong></a> ·
@@ -85,8 +85,8 @@ I am a **Fullstack Web Developer** focused on building reliable, maintainable we
         <code>React</code> · <code>PostgreSQL</code> · <code>Docker Compose</code> · <code>FastAPI</code> · <code>SQLAlchemy</code> · <code>n8n</code> · <code>OCR</code>
       </p>
       <ul>
-        <li>ATS-oriented resume evaluation system that parses PDF/DOCX uploads (with Tesseract OCR fallback for scanned documents) and scores fit against custom Job Descriptions.</li>
-        <li>Orchestrates a decoupled 3-worker <code>n8n</code> pipeline (<code>file-worker</code> &rarr; <code>ai-worker</code> &rarr; <code>persistence-worker</code>) with real-time frontend status polling.</li>
+        <li>ATS-oriented resume evaluation system parsing PDF/DOCX uploads (with async Tesseract OCR fallback) to score job fit, skill gaps, and actionable bullet rewrites.</li>
+        <li>Supports both a 3-worker <code>n8n</code> pipeline and a standalone <code>inline</code> FastAPI background pipeline with row-level locking (<code>SELECT ... FOR UPDATE</code>) and CI suites.</li>
       </ul>
       <p>
         <a href="https://github.com/longnguyen005/SS2_Project_Resume-Analyzer-Job-Fit-Scoring"><strong>Source Code &amp; Architecture Docs</strong></a>

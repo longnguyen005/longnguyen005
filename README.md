@@ -69,8 +69,8 @@ I am a **Fullstack Web Developer** focused on building reliable, maintainable we
         <code>React 19</code> · <code>JavaScript</code> · <code>Node.js</code> · <code>Express</code> · <code>MongoDB</code> · <code>Mongoose</code> · <code>JWT</code> · <code>Docker</code>
       </p>
       <ul>
-        <li>Stage-gated presentation studio (Prompt &rarr; Outline &rarr; 5-Layout Canvas &rarr; 4 Brand Themes &rarr; Presenter View) with SlideVersion restore, PDF handouts, and themed <code>.pptx</code> export.</li>
-        <li>Engineered with hybrid Instant Demo (server seeding + &lt;3.5s offline sandbox fallback), multi-key Gemini rotation/fallback chains, Zod validation, and GitHub Actions CI.</li>
+        <li>Stage-gated presentation studio (Prompt &rarr; Outline &rarr; 8-Layout Canvas &rarr; 4 Brand Themes &rarr; Presenter View) with scoped AI regeneration (<code>full</code> / <code>bullets</code> / <code>notes</code> + layout conversion), SlideVersion restore, PDF handouts, and themed <code>.pptx</code> export.</li>
+        <li>Engineered with Gemini 2.5 Structured JSON schemas, anti-monotony layout diversity planning, hybrid Instant Demo (server seeding + &lt;3.5s smart browser sandbox fallback), multi-key rotation, Zod validation, and GitHub Actions CI.</li>
       </ul>
       <p>
         <a href="https://ai-slide-generator-omega.vercel.app"><strong>Live Demo</strong></a> ·

@@ -58,6 +58,7 @@ I am a **Fullstack Web Developer** focused on building reliable, maintainable we
       </ul>
       <p>
         <a href="https://planora-ivory-tau.vercel.app"><strong>Live Demo</strong></a> ·
+        <a href="https://planora-ivory-tau.vercel.app/?view=sandbox"><strong>Interactive Sandbox</strong></a> ·
         <a href="https://github.com/longnguyen005/planora"><strong>Frontend Repo</strong></a> ·
         <a href="https://github.com/VinhDat267/ATI_Project"><strong>Fullstack Monorepo</strong></a>
       </p>

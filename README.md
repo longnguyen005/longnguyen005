@@ -80,13 +80,13 @@ I am a **Fullstack Web Developer** focused on building reliable, maintainable we
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>Resume Analyzer &amp; Job Fit Scoring</h3>
+      <h3>ResumeAI — ATS Resume Analyzer &amp; Job Fit Scoring</h3>
       <p>
-        <code>React</code> · <code>PostgreSQL</code> · <code>Docker Compose</code> · <code>FastAPI</code> · <code>SQLAlchemy</code> · <code>n8n</code> · <code>OCR</code>
+        <code>React 18</code> · <code>FastAPI</code> · <code>SQLAlchemy 2.0 Async</code> · <code>PostgreSQL 16</code> · <code>Alembic</code> · <code>Docker</code> · <code>n8n</code> · <code>OCR</code>
       </p>
       <ul>
-        <li>ATS-oriented resume evaluation system parsing PDF/DOCX uploads (with async Tesseract OCR fallback) to score job fit, skill gaps, and actionable bullet rewrites.</li>
-        <li>Supports both a 3-worker <code>n8n</code> pipeline and a standalone <code>inline</code> FastAPI background pipeline with row-level locking (<code>SELECT ... FOR UPDATE</code>) and CI suites.</li>
+        <li>Fullstack ATS optimization platform featuring server-verified Keyword Gap Matrices, parser readability diagnostics, cached JD re-scoring, side-by-side 2-version CV comparison, and print-ready PDF reports.</li>
+        <li>Engineered with Hybrid Instant Demo (24h ephemeral PostgreSQL seeding + &lt;3.5s browser sandbox fallback), <code>SELECT ... FOR UPDATE</code> row locking across <code>inline</code> &amp; <code>n8n</code> worker pipelines, and PostgreSQL 16 CI suites.</li>
       </ul>
       <p>
         <a href="https://github.com/longnguyen005/SS2_Project_Resume-Analyzer-Job-Fit-Scoring"><strong>Source Code &amp; Architecture Docs</strong></a>
